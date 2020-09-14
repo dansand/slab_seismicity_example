@@ -1,4 +1,3 @@
-*.xml
 *.py[co]
 __pycache__
 *.egg-info
