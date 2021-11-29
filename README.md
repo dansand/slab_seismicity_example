@@ -1,5 +1,22 @@
 # slab seismicity example
 
+## Notes
+
+As of Sep 2020, this example is working with py3, using a conda environment (py3_mapping). 
+
+There is now a master branch (python2) and a branch called py3
+
+the python scripts were moved out of this directory to `~/projects/shared_tools`
+
+the py3 branch will look for them at that location
+
+
+## To do
+
+Replace gdal raster analysis with rasterio (i.e. intepolation). 
+
+Simplify/improve the `create_profile_lines` functionality. Try to replace pygplates with pyproj.Geod, which has great circle tools.
+
 
 ## overview.ipynb
 
